@@ -182,7 +182,6 @@ body {
   #flex-bars > li:nth-child(8){animation-delay:0.8s;}
   #flex-bars > li:nth-child(9){animation-delay:0.9s;}
   #flex-bars > li:nth-child(10){animation-delay:1s;}
-  #flex-bars > li:nth-child(11){animation-delay:1s;}
   
   /* alternate color of graphing bars */
   #flex-bars > li:nth-child(odd) {
