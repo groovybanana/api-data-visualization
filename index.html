@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Currency Conversion Rates</title>
+  <meta name="description" content="EUD Conversion Rates">
+  <meta name="author" content="Moe">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/site.css">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="grid">
+        <header>
+        <h1>Currency Conversion Rates</h1>
+        </header>
+
+    <h3 id="Container-subhead">Choose a base currency:</h3>
+      <div class="ChoiceButtonsContainer">
+        <button class="ChoiceButton" onClick="rateFetch('EUR')">EUR <img src="./img/EUR.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('CAD')">CAD <img src="./img/CAD.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('CHF')">CHF <img src="./img/CHF.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('ILS')">ILS <img src="./img/ILS.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('BGN')">BGN <img src="./img/BGN.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('USD')">USD <img src="./img/USD.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('SGD')">SGD <img src="./img/SGD.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('AUD')">AUD <img src="./img/AUD.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('NZD')">NZD <img src="./img/NZD.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('PLN')">PLN <img src="./img/PLN.png" height="15px" /></button>
+        <button class="ChoiceButton" onClick="rateFetch('GBP')">GBP <img src="./img/GBP.png" height="15px" /></button>
+      </div>
+
+  <div class="graph">
+    <ul id="flex-bars">
+    </ul>  
+  </div>
+<footer>
+  <p>Data provide via <a href="http://exchangeratesapi.io/" class="footer-link" target="_blank">European Central Bank</a></p>
+</footer>
+</div>
+</div>  
+<script src="./js/main.js"></script>
+
+</body>
+</html>
